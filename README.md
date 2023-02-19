@@ -22,17 +22,17 @@ The following five sampling techniques were used in this project:
 
 The table below shows the accuracies of each sampling technique on five different machine learning models. The dataset used for all models is a balanced version of the original unbalanced dataset using random over-sampling and under-sampling techniques.
 
-| Sampling Technique | Decision Tree | SVM | Logistic Resgression | Random Forest | Naive Bayes |
+| Sampling Technique | Decision Tree | SVM | Logistic Resgression | KNN | Naive Bayes |
 |:---------------:|:---------------:|:---------------:|:---------------:|:---------------:|:---------------:|
 | Simple Random Sampling | 0.955 | 0.9411 | 0.897 | 0.992 | 0.757 |
-| Systematic Sampling | 0.994 | 0.963 | 0.910 | 1.0 | 0.691 |
-| Stratified Sampling | 0.985 | 0.970 | 0.907 | 1.0 | 0.675 |
-| Cluster Sampling | 0.985 | 0.976 | 0.891 | 1.0 | 0.834 |
-| Convenience Sampling | 0.989 | 0.968 | 0.926 | 1.0 | 0.852 |
+| Systematic Sampling | **0.994** | 0.963 | 0.910 | 0.958 | 0.691 |
+| Stratified Sampling | 0.985 | 0.970 | 0.907 | 0.966 | 0.675 |
+| Cluster Sampling | 0.985 | 0.976 | 0.891 | 0.971 | 0.834 |
+| Convenience Sampling | 0.989 | 0.968 | 0.926 | 0.957 | 0.852 |
 
-Based on these results, it can be concluded that Cluster Sampling performs the best on all five models. Simple random sampling performs the worst on all five models. The other sampling techniques have varying performance depending on the model. The model which gives the best accuracy for all 5 samples is Decision Tree.
+Based on these results, it can be concluded that systematic Sampling performs the best on all five models. Simple random sampling performs the worst on all five models. The other sampling techniques have varying performance depending on the model. The model which gives the best accuracy for all 5 samples is Decision Tree.
 
 ## Conclusion
 
-It is recommended to use cluster sampling for this dataset, as it consistently gives the best performance across all models. However, other sampling techniques may be worth considering for different datasets or models.
+It is recommended to use systematic sampling for this dataset, as it consistently gives the best performance across all models. However, other sampling techniques may be worth considering for different datasets or models.
  
